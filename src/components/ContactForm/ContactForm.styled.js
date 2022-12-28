@@ -19,7 +19,9 @@ export const Button = styled.button`
   width: 100px;
   padding: 5px 10px;
   :hover {
-    background-color: grey;
-   
+    background-color:  #FBD051;
+    border: 2px solid gray;
+    border-radius: 3px;
   }
+  
 `;

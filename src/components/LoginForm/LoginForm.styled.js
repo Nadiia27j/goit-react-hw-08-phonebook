@@ -22,4 +22,9 @@ export const Label = styled.label`
 
 export const Button = styled.button`
   margin-left: 60px;
+  :hover {
+    background-color:  #FBD051;
+    border: 2px solid gray;
+    border-radius: 3px;
+  }
 `;

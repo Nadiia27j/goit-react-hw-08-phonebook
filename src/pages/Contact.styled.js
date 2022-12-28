@@ -6,7 +6,7 @@ export const Section = styled.section`
    padding: 20px;
   margin-left: 200px;
   background-color: #A8D1E7;
-  width: 350px;
+  width: 320px;
   margin-top: 30px;
    
 `;

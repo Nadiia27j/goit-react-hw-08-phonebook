@@ -14,6 +14,8 @@ export const Item = styled.li`
 export const ButtonDelete = styled.button`
   margin-left: 50px;
   :hover {
-    background-color: gray;
+    background-color:  #FBD051;
+    border: 2px solid gray;
+    border-radius: 3px;
   }
 `;
