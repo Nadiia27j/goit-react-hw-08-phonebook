@@ -8,10 +8,10 @@ import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hooks';
 
 
-const HomePage = lazy(() => import('../pages/HomePage'));
-const RegisterPage = lazy(() => import('../pages/RegisterPage'));
-const LoginPage = lazy(() => import('../pages/LoginPage'));
-const ContactsPage = lazy(() => import('../pages/ContactsPage'));
+const HomePage = lazy(() => import('../pages/Home'));
+const RegisterPage = lazy(() => import('../pages/Register'));
+const LoginPage = lazy(() => import('../pages/Login'));
+const ContactsPage = lazy(() => import('../pages/Contacts'));
 const NotFound = lazy(() => import('./NotFound'));
 
 
@@ -25,7 +25,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <b>Refreshing user...</b>
+    <p>Refreshing user...</p>
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>

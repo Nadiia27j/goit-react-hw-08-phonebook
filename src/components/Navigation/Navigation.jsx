@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 import { useAuth } from "hooks";
-import { Box } from "./Navigation.styled";
+import { Box, Link } from "./Navigation.styled";
 
 export const Navigation = () => {
     const { isLoggedIn } = useAuth();

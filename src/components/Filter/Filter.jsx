@@ -8,7 +8,7 @@ export const Filter = () => {
   const filter = useSelector(selectFilter);
 
   const onChangeFilter = e => {
-    dispatch(setFilter(e.target.value));
+    dispatch(setFilter(e.currentTarget.value));
   };
 
   return (

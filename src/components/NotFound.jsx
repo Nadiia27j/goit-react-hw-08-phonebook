@@ -1,9 +1,11 @@
+import { Box } from "./NotFound.styled";
+
 
 const NotFound = () => {
     return (
-        <div>
+        <Box>
             Page not found
-        </div>
+        </Box>
     );
 };
 

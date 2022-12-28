@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Form = styled.form`
    width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
   
-   justify-content: center;
-   align-items: center;
 `;
 
 export const Label = styled.label`
