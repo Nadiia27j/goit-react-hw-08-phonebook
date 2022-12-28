@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Header = styled.header`
  border-bottom: 1px solid #2a363b;
   width: 100%;
-  background-color: grey;
+  background-color: #384685;
 `;
 
 export const NavWrapper = styled.div`

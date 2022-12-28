@@ -7,6 +7,7 @@ import { fetchContacts } from 'redux/contacts/operations';
 import { selectContacts, selectLoading } from 'redux/contacts/selectors';
 import { Section, Title, Box } from './Contact.styled';
 
+
 export default function Contacts() {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectLoading);

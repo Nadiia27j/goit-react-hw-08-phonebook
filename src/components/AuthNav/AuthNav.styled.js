@@ -8,10 +8,10 @@ export const Box = styled.div`
 
 export const Link = styled(NavLink)`
   text-decoration: none;
-  color: greenyellow;
+  color: #A8D1E7;
   font-weight: 400;
   font-size: 20px;
   &.active {
-    color: yellow;
+    color: #FBD051;
   }
 `;

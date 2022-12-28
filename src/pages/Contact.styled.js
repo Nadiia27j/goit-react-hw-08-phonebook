@@ -4,6 +4,11 @@ import styled from "styled-components";
 
 export const Section = styled.section`
    padding: 20px;
+  margin-left: 200px;
+  background-color: #A8D1E7;
+  width: 350px;
+  margin-top: 30px;
+   
 `;
 
 export const Title = styled.section`
@@ -18,3 +23,4 @@ export const Box = styled.section`
    justify-content: center;
    align-items: center;
 `;
+

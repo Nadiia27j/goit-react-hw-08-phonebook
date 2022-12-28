@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Label = styled.label`
   margin-top: 10px;
   margin-left: 30px;
-  font-weight: 500;
+  font-weight: 400;
 `;
 
 export const Input = styled.input`
